@@ -1,6 +1,13 @@
+import javax.print.DocFlavor.STRING;
+
 public class Abteilung {
-	public static void main(String[] args) {
-		//TODO: Start some method here
-	}
-//Hier bin ich
+	
+		private:
+			String kuerzel;
+			String name;
+
+		public Abteilung(String n, String k) {
+			name = n;
+			kuerzel = k;
+		}
 }
