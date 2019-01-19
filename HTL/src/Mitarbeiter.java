@@ -8,7 +8,7 @@ public class Mitarbeiter extends Person{
 	public 
 	
 		int getAnzahl() {
-		return anzahl;
+			return anzahl;
 		}
 		
 		Mitarbeiter(){

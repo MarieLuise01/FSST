@@ -16,6 +16,9 @@ public class HTL {
 		System.out.println(l.getVorname());
 		
 		System.out.println(anzahl.getAnzahl());
+		
+		Adresse a = new Adresse("Waldstrasse", 3, 3101, "St.Pölten");
+		a.printAdresse();
 	}
 
 }
