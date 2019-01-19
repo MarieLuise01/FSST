@@ -9,9 +9,18 @@ public class Schule {
 	
 	ArrayList<Abteilung> Abteilung = new ArrayList<Abteilung>();
 	
-	//addPersonal
+	boolean void addPersonal(NichtLehrpersonal personal)
+	{
+		
+	}
 	public Abteilung addAbteilung(String name, String kuerzel)
 	{
 		Abteilung.add(new Abteilung(name,kuerzel);
 	}
+	public Lehrer setDirektor(String n, String k)
+	{
+		
+	}
+	
+	getSchulkennzahl
 }

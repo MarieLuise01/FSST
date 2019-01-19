@@ -8,6 +8,6 @@ public class Abteilung {
 
 		public Abteilung(String n, String k) {
 			name = n;
-			kuerzel = k;
+			kuerzel = k;;
 		}
 }
