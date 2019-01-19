@@ -6,6 +6,8 @@ public class Schule {
 		String name;
 		Long schulkennzahl;
 		String schultyp;
+		Adresse Standort;
+		Schüler Schulsprecher;
 	
 	ArrayList<Abteilung> Abteilung = new ArrayList<Abteilung>();
 	

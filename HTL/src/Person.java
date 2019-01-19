@@ -4,14 +4,14 @@ public class Person {
 
 	private
 		Long svnr;
-		String vorname = "";
-		String nachname = "";
+		String vorname;
+		String nachname;
 	
 		Date geburtsdatum ;
 	
-		String email = "";
+		String email;
 	
-		
+		ArrayList<Adresse> wohnort = new ArrayList<adresse>();
 	
 	public 
 	//getters

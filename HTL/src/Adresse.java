@@ -5,7 +5,7 @@ public class Adresse {
 		String strasse;
 		int hausnummer;
 		int plz;
-		Person Wohnort;
+		
 	
 	public
 	
@@ -34,8 +34,25 @@ public class Adresse {
 		return plz;
 	}
 	
+	//setters
+	
+	void setOrt(String ort) {
+		this.ort = ort;
+	}
+	
+	void setStrasse(String strasse) {
+		this.strasse = strasse;
+	}
+	
+	void setHausnummer(int hausnummer) {
+		this.hausnummer = hausnummer;
+	}
+	
+	void setPlz(int plz) {
+		this.plz = plz;
+	}
+	
 	void printAdresse(){
-		String adresse = strasse + " " + hausnummer + "\n" + plz + " " + ort;
-		System.out.println(adresse);
+		System.out.println(strasse + " " + hausnummer + "\n" + plz + " " + ort);
 	}
 }
